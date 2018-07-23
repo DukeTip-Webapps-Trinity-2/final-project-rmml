@@ -1,0 +1,66 @@
+.body {
+    font-family: "Montserrat";
+    font-size: 25px;
+}
+.BackGround{
+    color: white;
+    background-color: rgba(41, 41, 216, 0.966);
+}
+.biggerfontsize{
+    font-size: 20px;
+}
+
+
+
+
+
+
+/*Home page css*/
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(251, 236, 255) ;
+ font-size: 100px
+}
+img {
+    opacity: .9;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    padding: 20px;
+    top: 25%;
+    bottom: 25%;
+    left: 25%;
+    right: 25%;  
+}
