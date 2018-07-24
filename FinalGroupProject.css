@@ -14,8 +14,12 @@
 }
 .fontsize{
     font-size: 30px;  
+    padding-top: 20px; 
     padding-left: 300px;
     padding-right: 300px;
+}   
+.bordererr{   
+    border-radius: 3%;  
 }
 .buttonsbigger{
     padding-left: 15px;
@@ -148,9 +152,8 @@ ul {
   }
   
   
-  
   .title {
-    position: absolute;
+    position: right;
     top: 10%;
     left: 100px;
   }

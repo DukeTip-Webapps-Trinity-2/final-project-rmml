@@ -42,7 +42,7 @@ function priceCalculator() {
 //moving image
 
 $(window).scroll(function(){
-    $(".top").css("opacity", 1 - $(window).scrollTop() / 250);
+    $(".top").css("opacity", 3 - $(window).scrollTop() / 250);
   });
 
 
