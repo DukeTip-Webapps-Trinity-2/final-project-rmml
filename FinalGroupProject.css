@@ -1,5 +1,7 @@
-.body {
+body {
     font-family: "Montserrat";
+    color: white;
+    background-image: url("starry-background_2012875.jpg")
     /* font-size: 25px; */
 }
 .NewBack{
@@ -43,6 +45,7 @@
 .smallfont{
     font-size: 15px;
     color:black;  
+    background-color:white;
 }
 .borderor{
     background-color: lightgray;
@@ -57,7 +60,12 @@
     text-align: center;
     color: white;
 }
-
+/* Top Middle */
+.top-middle {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
 /* Bottom left text */
 .bottom-left {
     position: absolute;
@@ -245,7 +253,25 @@ ul {
 /* Centered text */
 .centered {
     position: absolute;
+    width: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.galaxyPic{
+    position: relative;
+    width: 100%;
+}
+
+.relBox{
+    width: 100%;
+
 }

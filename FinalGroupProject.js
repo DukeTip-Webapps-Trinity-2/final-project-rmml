@@ -70,7 +70,7 @@ function priceCalculator() {
     senior1Val = $('#Senior1').val();
     military1Val = $('#Military1').val();
     membership1Val = $('#Membership1').val();
-    total1 = child1Price * child1Val + adult1Price * adult1Val + seniorPrice1 * seniorVal1 + militaryPrice1 * military1Val + membershipPrice1 * membership1Val;
+    total1 = childPrice1 * child1Val + adultPrice1 * adult1Val + seniorPrice1 * senior1Val + militaryPrice1 * military1Val + membershipPrice1 * membership1Val;
     console.log(total1);
     if (total1 != NaN) {
         $('#total1').text(total1);
@@ -96,11 +96,11 @@ function selectOnlyThis() {
 $(document).ready(function () {
     $(".submit").click(function () {
         //make api call
-        var city = $('.city').val()
+        var city = $(".city").val()
         var apiKey = "b0d2710044a92019076885661a5ce50f";
-        var uri = "https://api.openweathermap.org/data/2.5/weather?zip=" + city + ",us&units=imperial&appid=" + apiKey;
-        console.log(uri);
-        $.get(uri, onRes);
+        var url = "https://api.openweathermap.org/data/2.5/weather?zip=" + city + ",us&units=imperial&appid=" + apiKey;
+        console.log(url);
+        $.get(url, onRes);
     });
 });
 
@@ -111,8 +111,26 @@ function onRes(response) {
     $(".city-name").html(response.name);
     $(".weather").html(response.weather[0].description)
 }
+/*
+$(document).ready(function () {
+    $(".submit").click(function () {
+        var city = $(".city").val()
+        var apikey = "117f5743474a1aab59ef7851085fd878";
+        var url = "https://api.openweathermap.org/data/2.5/weather?zip=" + city + ",us&units=imperial&appid=" + apikey;
+        console.log(url);
+        $.get(url, onRes );
+    });
 
+});
 
+function onRes(response) {
+    console.log(response)
+    $(".country").html(response.sys.country);
+    $(".temp").html(response.main.temp);
+    $(".city-name").html(response.name);
+    $(".weather").html(response.weather[0].description);
+}
+*/
 
 
 
