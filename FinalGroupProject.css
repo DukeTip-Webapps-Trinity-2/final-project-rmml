@@ -1,6 +1,6 @@
 .body {
     font-family: "Montserrat";
-    font-size: 25px;
+    /* font-size: 25px; */
 }
 .NewBack{
     font-family: "Montserrat";
@@ -96,9 +96,44 @@ img {
     top: 25%;
     bottom: 25%;
     left: 25%;
-    right: 25%;  
+    right: 25%;    
+}
+/* Test */
+
+@media (min-width: 320) {
+    body {
+        font-size: 30px;  
+    }
 }
 
+@media (min-width: 375px) {
+    body {
+        font-size: 29px;
+    }
+}
+  
+@media (min-width: 425px) {
+    body {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {   
+        font-size: 27px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 26px;
+    }
+}
+@media (min-width: 1440px) {
+    body {
+        font-size: 25px;
+    }
+}
 @font-face {
     font-family: BTTF;
     src: url(BTTF.ttf);
@@ -121,7 +156,7 @@ ul {
     background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
   }
 
-  .btn {
+.btn {
     flex: 1 1 auto;
     margin: 10px;
     padding: 30px;
@@ -153,7 +188,64 @@ ul {
   
   
   .title {
-    position: right;
+    position: left;
     top: 10%;
     left: 100px;
   }
+  .whitetext{
+      color:white;
+  }
+
+
+  .rides{
+      background-color:black;
+  }
+
+
+
+
+
+/* css for space and white text.*/
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
