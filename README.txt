@@ -1,7 +1,18 @@
 Maddox- FrameWork of Website, About Page, Tickets, JavaScript, and, finding cities and various addresses
 Logan- Special Events Page, Contact Page, Month Pages, and, Carousel for Index
-Madison- Home Page, finding fonts "back to the future" and "lazer 84" and,
+Madison- Home Page, finding fonts, grammer/spelling checks, weather tracker,
 Richard- Rides Page, cards for ride page, finding images for rides  and,
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -72,10 +83,6 @@ function onRes(response) {
     $(".city-name").html(response.name);
     $(".weather").html(response.weather[0].description)
 }
-
-
-
-
 
 
 

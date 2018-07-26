@@ -44,6 +44,8 @@ function selectOnlyThis() {
     }
     this.checked = true;
 }
+/* The Old Merchandise Section
+
 
 var childPrice1 = 60;
 var adultPrice1 = 40;
@@ -58,8 +60,8 @@ var membership1Val;
 
 $(document).ready(function () {
     var total1;
-    $("#check1").click(selectOnlyThis);
-    $("#check2").click(selectOnlyThis);
+    $("#check11").click(selectOnlyThis);
+    $("#check22").click(selectOnlyThis);
     $('#submit1').click(priceCalculator);
 });
 
@@ -91,7 +93,7 @@ function selectOnlyThis() {
     this.checked = true;
 }
 
-
+*/
 //b0d2710044a92019076885661a5ce50f
 $(document).ready(function () {
     $(".submit").click(function () {
@@ -111,6 +113,7 @@ function onRes(response) {
     $(".city-name").html(response.name);
     $(".weather").html(response.weather[0].description)
 }
+/*https://api.openweathermap.org/data/2.5/weather?zip=98101,us&units=imperial&appid=b0d2710044a92019076885661a5ce50f; */
 /*
 $(document).ready(function () {
     $(".submit").click(function () {
