@@ -106,26 +106,32 @@ img {
     left: 25%;
     right: 25%;    
 }
-/* Test */
-
-@media (min-width: 320) {
+/* Test 
+.images1 {
+    width: "";
+    height: "";
+}*/
+/*@media (min-width: 320) {
     body {
         font-size: 30px;  
-    }
-    img {
-        width: px;
-        height: px;
+    }   
+    images1 {
+        width: 100px;
+        height: 50px;
     }
 
-}
-
+}*/
+img {
+    width: 100%;
+    height: auto;
+}  /*  
 @media (min-width: 375px) {
     body {
         font-size: 29px;
     }
-    img {
-        width: px;
-        height: px;
+    images1 {
+        width: 200px;
+        height: 100px;
     }
 }
   
@@ -133,9 +139,9 @@ img {
     body {
         font-size: 28px;
     }
-    img {
-        width: px;
-        height: px;
+    images1 {
+        width: 400px;
+        height: 200px;
     }
 }
 
@@ -143,9 +149,9 @@ img {
     body {   
         font-size: 27px;
     }
-    img {
-        width: px;
-        height: px;
+    images1 {
+        width: 600px;
+        height: 300px;
     }
 }
 
@@ -153,20 +159,29 @@ img {
     body {
         font-size: 26px;
     }
-    img {
-        width: px;
-        height: px;
+    images1 {
+        width: 975px;
+        height: 600px;
     }
 }
 @media (min-width: 1440px) {
     body {
         font-size: 25px;
     }
-    img {
-        width: px;
-        height: px;
+    images1 {
+        width: 1950px;
+        height: 900px;
     }
 }
+@media (min-width: 2560px) {
+    body {
+        font-size: 30px;
+    }
+    images1 {
+        width: 2560px;
+        height: 1200px;
+    }
+}*/
 @font-face {
     font-family: BTTF;
     src: url(BTTF.ttf);
