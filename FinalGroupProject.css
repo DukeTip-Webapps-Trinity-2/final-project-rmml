@@ -1,3 +1,4 @@
+
 body {
     font-family: "Montserrat";
     color: white;
@@ -120,68 +121,72 @@ img {
         height: 50px;
     }
 
-}*/
+}
 img {
     width: 100%;
     height: auto;
-}  /*  
-@media (min-width: 375px) {
-    body {
-        font-size: 29px;
-    }
-    images1 {
-        width: 200px;
-        height: 100px;
-    }
-}
-  
-@media (min-width: 425px) {
-    body {
-        font-size: 28px;
-    }
-    images1 {
-        width: 400px;
-        height: 200px;
-    }
+} */   
+
+
+img{
+    max-width: 100%;   
+    max-height: 100%;
 }
 
-@media (min-width: 768px) {
-    body {   
-        font-size: 27px;
-    }
-    images1 {
-        width: 600px;
-        height: 300px;
-    }
-}
 
-@media (min-width: 1024px) {
-    body {
-        font-size: 26px;
-    }
-    images1 {
-        width: 975px;
-        height: 600px;
-    }
-}
-@media (min-width: 1440px) {
-    body {
-        font-size: 25px;
-    }
-    images1 {
-        width: 1950px;
-        height: 900px;
-    }
-}
-@media (min-width: 2560px) {
-    body {
+   
+/* Extra small devices (phones, 600px and down)*/
+@media only screen and (max-width: 600px) {
+    body{
+        font-size: 35px;
+    }           
+        
+}           
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
         font-size: 30px;
     }
-    images1 {
-        width: 2560px;
-        height: 1200px;
+    
+    
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        font-size: 25px;
+
     }
-}*/
+
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        font-size: 20px;
+    }
+
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) { 
+    font-size: 20px;
+
+
+} 
+
+
+
+  
+
+
+
+
+
+
 @font-face {
     font-family: BTTF;
     src: url(BTTF.ttf);
@@ -297,7 +302,7 @@ ul {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} 
 
 .centered1 {
     position: absolute;
@@ -337,4 +342,15 @@ ul {
 .fa-instagram:hover,
 .fa-youtube:hover, {
   color:#d5d5d5
+}
+
+
+.custom_nav { 
+    background: rgba(27, 29, 117, 0.473);
+}
+
+#indexh1 {
+ font-family: BTTF; 
+ font-size: 45pt; 
+ color: white;
 }
